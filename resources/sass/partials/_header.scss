@@ -1,0 +1,19 @@
+header {
+    padding-top: 25px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+
+    .container {
+        position: relative;
+
+        .ico {
+            @include fonts( $white, $regular, 13px );
+            font-size: 13px;
+            position: absolute;
+            right: 0;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+    }
+}
